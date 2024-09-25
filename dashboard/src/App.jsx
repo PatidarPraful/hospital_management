@@ -21,7 +21,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://peaceful-sunburst-4249df.netlify.app/api/v1/user/admin/me",
+          "https://hospital-management-backend-2-2piu.onrender.com/api/v1/user/admin/me",
           {
             withCredentials: true,
           }
