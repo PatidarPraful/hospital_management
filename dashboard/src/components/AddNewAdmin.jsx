@@ -22,7 +22,7 @@ const AddNewAdmin = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/admin/addnew",
+          "https://peaceful-sunburst-4249df.netlify.app/api/v1/user/admin/addnew",
           { firstName, lastName, email, phone, age, gender, password },
           {
             withCredentials: true,
