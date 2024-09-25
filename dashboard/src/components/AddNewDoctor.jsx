@@ -56,7 +56,7 @@ const AddNewDoctor = () => {
       formData.append("doctorDepartment", doctorDepartment);
       formData.append("docAvatar", docAvatar);
       await axios
-        .post("https://peaceful-sunburst-4249df.netlify.app/api/v1/user/doctor/addnew", formData, {
+        .post("https://hospital-management-backend-2-2piu.onrender.com/api/v1/user/doctor/addnew", formData, {
           withCredentials: true,
           headers: { "Content-Type": "multipart/form-data" },
         })
